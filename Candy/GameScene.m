@@ -25,7 +25,7 @@
     
     //Set Background, Foreground etc..
     [backgroundManager splashScene:self];
-
+    NSLog(@"%@", [[NSBundle mainBundle] bundleIdentifier]);
     //Add Scene Extras
     //This can be moved to a custom delay method, but is it worth it?
     

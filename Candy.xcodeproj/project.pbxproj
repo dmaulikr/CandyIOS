@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33C52DBA8CCEB2888CD258BA /* libPods-CandyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */; };
 		615C34E91DF6D42900F1B3E2 /* AddItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34E81DF6D42900F1B3E2 /* AddItem.m */; };
 		615C34EC1DF6E0DB00F1B3E2 /* scrollUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34EB1DF6E0DB00F1B3E2 /* scrollUpdate.m */; };
 		618EA38C1DF1ED4C00D07ADD /* candyMachines.m in Sources */ = {isa = PBXBuildFile; fileRef = 618EA38B1DF1ED4C00D07ADD /* candyMachines.m */; };
@@ -28,6 +29,7 @@
 		750F3A9F1DEF0762002AFB78 /* playerStatsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F3A9E1DEF0761002AFB78 /* playerStatsMenu.m */; };
 		752002451E11B2FB00C2AC11 /* itemUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 752002441E11B2FB00C2AC11 /* itemUI.m */; };
 		752002481E11D47B00C2AC11 /* confirmSale.m in Sources */ = {isa = PBXBuildFile; fileRef = 752002471E11D47B00C2AC11 /* confirmSale.m */; };
+		752177121E3EC3A00095A6D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 752177111E3EC3A00095A6D4 /* GoogleService-Info.plist */; };
 		7521F8C11DE0F61E00F2AD76 /* slotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7521F8C01DE0F61E00F2AD76 /* slotManager.m */; };
 		7521F8C41DE0F66900F2AD76 /* slot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7521F8C31DE0F66900F2AD76 /* slot.m */; };
 		7521F8C71DE0F91700F2AD76 /* box1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7521F8C61DE0F91700F2AD76 /* box1.m */; };
@@ -167,6 +169,8 @@
 		75FCC5E41E08E6380051CBA1 /* sweetInventoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E31E08E6380051CBA1 /* sweetInventoryData.m */; };
 		75FCC5E71E0975FD0051CBA1 /* inventoryDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E61E0975FD0051CBA1 /* inventoryDataHandler.m */; };
 		75FCC5EA1E09769B0051CBA1 /* inventorySweetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E91E09769B0051CBA1 /* inventorySweetData.m */; };
+		818773E4E01FE704692DC87A /* libPods-CandyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */; };
+		84D5F054600038F88EF5DF3B /* libPods-Candy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +191,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147EA2AE0ECC8DB16178EAEA /* Pods-CandyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyUITests/Pods-CandyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		615C34E71DF6D42900F1B3E2 /* AddItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItem.h; sourceTree = "<group>"; };
 		615C34E81DF6D42900F1B3E2 /* AddItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItem.m; sourceTree = "<group>"; };
 		615C34EA1DF6E0DB00F1B3E2 /* scrollUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollUpdate.h; sourceTree = "<group>"; };
@@ -209,6 +214,7 @@
 		61E183911DEE14140034C021 /* background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = background.m; sourceTree = "<group>"; };
 		61E183931DEE14450034C021 /* character_clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character_clothes.h; sourceTree = "<group>"; };
 		61E183941DEE14450034C021 /* character_clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = character_clothes.m; sourceTree = "<group>"; };
+		6DF97BF29B5E79691DE0075B /* Pods-CandyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		750F2A301DF7523E00A784F6 /* sweetFavourNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sweetFavourNode.h; path = Candy/inventory/sweetFavourNode.h; sourceTree = "<group>"; };
 		750F2A311DF7523E00A784F6 /* sweetFavourNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sweetFavourNode.m; path = Candy/inventory/sweetFavourNode.m; sourceTree = "<group>"; };
 		750F2A331DF77FF400A784F6 /* fiftyTapBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fiftyTapBonus.h; path = Candy/tap/fiftyTapBonus.h; sourceTree = "<group>"; };
@@ -229,6 +235,7 @@
 		752002441E11B2FB00C2AC11 /* itemUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = itemUI.m; path = "Candy/Sweet Inventory/itemUI.m"; sourceTree = "<group>"; };
 		752002461E11D47B00C2AC11 /* confirmSale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = confirmSale.h; path = "Candy/Sweet Inventory/confirmSale.h"; sourceTree = "<group>"; };
 		752002471E11D47B00C2AC11 /* confirmSale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = confirmSale.m; path = "Candy/Sweet Inventory/confirmSale.m"; sourceTree = "<group>"; };
+		752177111E3EC3A00095A6D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7521F8BF1DE0F61E00F2AD76 /* slotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slotManager.h; path = Candy/inventory/slots/slotManager.h; sourceTree = "<group>"; };
 		7521F8C01DE0F61E00F2AD76 /* slotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = slotManager.m; path = Candy/inventory/slots/slotManager.m; sourceTree = "<group>"; };
 		7521F8C21DE0F66900F2AD76 /* slot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slot.h; path = Candy/inventory/slot.h; sourceTree = "<group>"; };
@@ -498,6 +505,13 @@
 		75FCC5E61E0975FD0051CBA1 /* inventoryDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventoryDataHandler.m; path = "Candy/Sweet Inventory/inventoryDataHandler.m"; sourceTree = "<group>"; };
 		75FCC5E81E09769B0051CBA1 /* inventorySweetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inventorySweetData.h; path = "Candy/Sweet Inventory/inventorySweetData.h"; sourceTree = "<group>"; };
 		75FCC5E91E09769B0051CBA1 /* inventorySweetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventorySweetData.m; path = "Candy/Sweet Inventory/inventorySweetData.m"; sourceTree = "<group>"; };
+		801CB7F07A81FACDDCF3AF14 /* Pods-Candy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.debug.xcconfig"; sourceTree = "<group>"; };
+		849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FD0F94A0262F93DE23343B /* Pods-CandyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyUITests/Pods-CandyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Candy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F9139C16C36A43384F170 /* Pods-Candy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.release.xcconfig"; sourceTree = "<group>"; };
+		DE38575794849656B079A7D7 /* Pods-CandyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +519,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D5F054600038F88EF5DF3B /* libPods-Candy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +527,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818773E4E01FE704692DC87A /* libPods-CandyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +535,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C52DBA8CCEB2888CD258BA /* libPods-CandyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +622,17 @@
 				750F3A9E1DEF0761002AFB78 /* playerStatsMenu.m */,
 			);
 			name = statsMenu;
+			sourceTree = "<group>";
+		};
+		752177101E3EC3890095A6D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752177111E3EC3A00095A6D4 /* GoogleService-Info.plist */,
+				DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */,
+				FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */,
+				849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7521F8BE1DE0F5F600F2AD76 /* Slots */ = {
@@ -882,6 +910,7 @@
 		75C36DEE1DCCF77600F84214 = {
 			isa = PBXGroup;
 			children = (
+				752177101E3EC3890095A6D4 /* Frameworks */,
 				75E3B5B31E3AB07500979CA4 /* Free Items  */,
 				75B7C6A81E327D8400D01EB5 /* Trend System */,
 				75784D481E281AB600C41067 /* Daily Spin */,
@@ -914,6 +943,7 @@
 				75C36E1A1DCCF77700F84214 /* CandyTests */,
 				75C36E251DCCF77700F84214 /* CandyUITests */,
 				75C36DF81DCCF77600F84214 /* Products */,
+				E6A122EB48E9CFBD5D4B85AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1186,6 +1216,19 @@
 			name = "Sweet Inventory";
 			sourceTree = "<group>";
 		};
+		E6A122EB48E9CFBD5D4B85AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				801CB7F07A81FACDDCF3AF14 /* Pods-Candy.debug.xcconfig */,
+				DC5F9139C16C36A43384F170 /* Pods-Candy.release.xcconfig */,
+				6DF97BF29B5E79691DE0075B /* Pods-CandyTests.debug.xcconfig */,
+				DE38575794849656B079A7D7 /* Pods-CandyTests.release.xcconfig */,
+				D1FD0F94A0262F93DE23343B /* Pods-CandyUITests.debug.xcconfig */,
+				147EA2AE0ECC8DB16178EAEA /* Pods-CandyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1193,9 +1236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C36E2B1DCCF77700F84214 /* Build configuration list for PBXNativeTarget "Candy" */;
 			buildPhases = (
+				087358CE28B02C463ADE2877 /* [CP] Check Pods Manifest.lock */,
 				75C36DF31DCCF77600F84214 /* Sources */,
 				75C36DF41DCCF77600F84214 /* Frameworks */,
 				75C36DF51DCCF77600F84214 /* Resources */,
+				309F418D719E81B1CE07EB25 /* [CP] Embed Pods Frameworks */,
+				F491DAF2531B1EFE148D4B23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1210,9 +1256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C36E2E1DCCF77700F84214 /* Build configuration list for PBXNativeTarget "CandyTests" */;
 			buildPhases = (
+				ACE409CB6B41ED17C58DAF8E /* [CP] Check Pods Manifest.lock */,
 				75C36E131DCCF77700F84214 /* Sources */,
 				75C36E141DCCF77700F84214 /* Frameworks */,
 				75C36E151DCCF77700F84214 /* Resources */,
+				CF4D197D00E699DBB09AB7BA /* [CP] Embed Pods Frameworks */,
+				0B9C958F8E1D8AB58941CD3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1228,9 +1277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C36E311DCCF77700F84214 /* Build configuration list for PBXNativeTarget "CandyUITests" */;
 			buildPhases = (
+				3213B546B2B7C1F8EDA17997 /* [CP] Check Pods Manifest.lock */,
 				75C36E1E1DCCF77700F84214 /* Sources */,
 				75C36E1F1DCCF77700F84214 /* Frameworks */,
 				75C36E201DCCF77700F84214 /* Resources */,
+				1E86400A4DAFF34AFF57C7C3 /* [CP] Embed Pods Frameworks */,
+				4A4394E0E556BDFB788F6A07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1295,6 +1347,7 @@
 			files = (
 				75C36E0C1DCCF77700F84214 /* Main.storyboard in Resources */,
 				75C36E011DCCF77600F84214 /* GameScene.sks in Resources */,
+				752177121E3EC3A00095A6D4 /* GoogleService-Info.plist in Resources */,
 				75C36E0E1DCCF77700F84214 /* Assets.xcassets in Resources */,
 				7525F7B31DD232E600B0510C /* pixel.ttf in Resources */,
 				7525F7CC1DD2931900B0510C /* coders_crux.ttf in Resources */,
@@ -1321,6 +1374,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087358CE28B02C463ADE2877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B9C958F8E1D8AB58941CD3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E86400A4DAFF34AFF57C7C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyUITests/Pods-CandyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		309F418D719E81B1CE07EB25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Candy/Pods-Candy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3213B546B2B7C1F8EDA17997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4394E0E556BDFB788F6A07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyUITests/Pods-CandyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE409CB6B41ED17C58DAF8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4D197D00E699DBB09AB7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F491DAF2531B1EFE148D4B23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Candy/Pods-Candy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75C36DF31DCCF77600F84214 /* Sources */ = {
@@ -1621,6 +1812,7 @@
 		};
 		75C36E2C1DCCF77700F84214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801CB7F07A81FACDDCF3AF14 /* Pods-Candy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5F4852ZMN;
@@ -1634,6 +1826,7 @@
 		};
 		75C36E2D1DCCF77700F84214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5F9139C16C36A43384F170 /* Pods-Candy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5F4852ZMN;
@@ -1647,6 +1840,7 @@
 		};
 		75C36E2F1DCCF77700F84214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF97BF29B5E79691DE0075B /* Pods-CandyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CandyTests/Info.plist;
@@ -1660,6 +1854,7 @@
 		};
 		75C36E301DCCF77700F84214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE38575794849656B079A7D7 /* Pods-CandyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CandyTests/Info.plist;
@@ -1673,6 +1868,7 @@
 		};
 		75C36E321DCCF77700F84214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FD0F94A0262F93DE23343B /* Pods-CandyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CandyUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -1685,6 +1881,7 @@
 		};
 		75C36E331DCCF77700F84214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147EA2AE0ECC8DB16178EAEA /* Pods-CandyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CandyUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
