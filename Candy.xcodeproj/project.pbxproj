@@ -97,6 +97,9 @@
 		757695291E0B2A860067ABBF /* sweetInventoryScrollUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 757695281E0B2A860067ABBF /* sweetInventoryScrollUI.m */; };
 		75784D4B1E281ADF00C41067 /* spinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 75784D4A1E281ADF00C41067 /* spinScene.m */; };
 		75784D4E1E282F4200C41067 /* spinWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75784D4D1E282F4200C41067 /* spinWheel.m */; };
+		7578C1631E3F0F7600E736BC /* libPods-Candy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7578C1621E3F0F7600E736BC /* libPods-Candy.a */; };
+		7578C1661E3F0F8400E736BC /* libPods-CandyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7578C1641E3F0F8400E736BC /* libPods-CandyTests.a */; };
+		7578C1671E3F0F8400E736BC /* libPods-CandyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7578C1651E3F0F8400E736BC /* libPods-CandyUITests.a */; };
 		7579CB031E2A8CBD00975F01 /* sparks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7579CB021E2A8CBD00975F01 /* sparks.m */; };
 		7579CB061E2AA4CD00975F01 /* spinBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7579CB051E2AA4CD00975F01 /* spinBox.m */; };
 		757CD1921DE1383F00D07480 /* box1DataScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 757CD1911DE1383F00D07480 /* box1DataScreen.m */; };
@@ -365,6 +368,9 @@
 		75784D4A1E281ADF00C41067 /* spinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = spinScene.m; path = "Candy/Daily Spin/spinScene.m"; sourceTree = "<group>"; };
 		75784D4C1E282F4200C41067 /* spinWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spinWheel.h; path = "Candy/Daily Spin/spinWheel.h"; sourceTree = "<group>"; };
 		75784D4D1E282F4200C41067 /* spinWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = spinWheel.m; path = "Candy/Daily Spin/spinWheel.m"; sourceTree = "<group>"; };
+		7578C1621E3F0F7600E736BC /* libPods-Candy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Candy.a"; path = "Pods/../build/Debug-iphoneos/libPods-Candy.a"; sourceTree = "<group>"; };
+		7578C1641E3F0F8400E736BC /* libPods-CandyTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CandyTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-CandyTests.a"; sourceTree = "<group>"; };
+		7578C1651E3F0F8400E736BC /* libPods-CandyUITests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CandyUITests.a"; path = "Pods/../build/Debug-iphoneos/libPods-CandyUITests.a"; sourceTree = "<group>"; };
 		7579CB011E2A8CBD00975F01 /* sparks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sparks.h; path = Candy/particleSystem/sparks.h; sourceTree = "<group>"; };
 		7579CB021E2A8CBD00975F01 /* sparks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sparks.m; path = Candy/particleSystem/sparks.m; sourceTree = "<group>"; };
 		7579CB041E2AA4CD00975F01 /* spinBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spinBox.h; path = "Candy/Daily Spin/spinBox.h"; sourceTree = "<group>"; };
@@ -518,6 +524,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7578C1661E3F0F8400E736BC /* libPods-CandyTests.a in Frameworks */,
+				7578C1671E3F0F8400E736BC /* libPods-CandyUITests.a in Frameworks */,
+				7578C1631E3F0F7600E736BC /* libPods-Candy.a in Frameworks */,
 				758FDAEA1E3F0CFA0021A814 /* libGoogleToolboxForMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +633,9 @@
 		752177101E3EC3890095A6D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7578C1641E3F0F8400E736BC /* libPods-CandyTests.a */,
+				7578C1651E3F0F8400E736BC /* libPods-CandyUITests.a */,
+				7578C1621E3F0F7600E736BC /* libPods-Candy.a */,
 				758FDAE91E3F0CFA0021A814 /* libGoogleToolboxForMac.a */,
 				752177111E3EC3A00095A6D4 /* GoogleService-Info.plist */,
 			);

@@ -10,6 +10,8 @@
 #import "mainTransition.h"
 #import "statsMenuButtons.h"
 
+@import GoogleMobileAds;
+
 @implementation freeItemsScene
 -(void)didMoveToView:(SKView *)view {
     [self setAnchorPoint:CGPointMake(0.5, 0.5)];
