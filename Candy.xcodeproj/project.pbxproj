@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C52DBA8CCEB2888CD258BA /* libPods-CandyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */; };
 		615C34E91DF6D42900F1B3E2 /* AddItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34E81DF6D42900F1B3E2 /* AddItem.m */; };
 		615C34EC1DF6E0DB00F1B3E2 /* scrollUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34EB1DF6E0DB00F1B3E2 /* scrollUpdate.m */; };
 		618EA38C1DF1ED4C00D07ADD /* candyMachines.m in Sources */ = {isa = PBXBuildFile; fileRef = 618EA38B1DF1ED4C00D07ADD /* candyMachines.m */; };
@@ -109,6 +108,7 @@
 		7580D74D1E1EDDA800BCDA75 /* desks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580D74C1E1EDDA800BCDA75 /* desks.m */; };
 		75828DFC1E16A417008DC5AF /* sweetValueCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75828DFB1E16A417008DC5AF /* sweetValueCalculation.m */; };
 		758C52531E2295870054D864 /* deskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 758C52521E2295870054D864 /* deskStore.m */; };
+		758FDAEA1E3F0CFA0021A814 /* libGoogleToolboxForMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758FDAE91E3F0CFA0021A814 /* libGoogleToolboxForMac.a */; };
 		75919B911DDB7A93001F66EB /* upgradeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 75919B901DDB7A93001F66EB /* upgradeMenu.m */; };
 		75919B951DDB82DF001F66EB /* mainUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 75919B941DDB82DF001F66EB /* mainUpgrade.m */; };
 		75919B991DDCA41C001F66EB /* defaultLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75919B981DDCA41C001F66EB /* defaultLevel.m */; };
@@ -140,6 +140,7 @@
 		75C36E421DCE63E500F84214 /* mainTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C36E411DCE63E500F84214 /* mainTransition.m */; };
 		75C36E461DCE752A00F84214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C36E451DCE752A00F84214 /* main.m */; };
 		75C36E4A1DCE793D00F84214 /* mainBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C36E491DCE793D00F84214 /* mainBackground.m */; };
+		75CA23E51E3F02930003DD92 /* loadAdvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA23E41E3F02930003DD92 /* loadAdvert.m */; };
 		75CCCB301E153198007DA3EC /* sweetInvSelectUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCCB2F1E153198007DA3EC /* sweetInvSelectUI.m */; };
 		75D01FEE1E36AD60004F8F0F /* trendsChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D01FED1E36AD60004F8F0F /* trendsChart.m */; };
 		75D01FF11E36B103004F8F0F /* trendsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D01FF01E36B103004F8F0F /* trendsData.m */; };
@@ -169,8 +170,6 @@
 		75FCC5E41E08E6380051CBA1 /* sweetInventoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E31E08E6380051CBA1 /* sweetInventoryData.m */; };
 		75FCC5E71E0975FD0051CBA1 /* inventoryDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E61E0975FD0051CBA1 /* inventoryDataHandler.m */; };
 		75FCC5EA1E09769B0051CBA1 /* inventorySweetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FCC5E91E09769B0051CBA1 /* inventorySweetData.m */; };
-		818773E4E01FE704692DC87A /* libPods-CandyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */; };
-		84D5F054600038F88EF5DF3B /* libPods-Candy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,7 +213,7 @@
 		61E183911DEE14140034C021 /* background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = background.m; sourceTree = "<group>"; };
 		61E183931DEE14450034C021 /* character_clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character_clothes.h; sourceTree = "<group>"; };
 		61E183941DEE14450034C021 /* character_clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = character_clothes.m; sourceTree = "<group>"; };
-		6DF97BF29B5E79691DE0075B /* Pods-CandyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF97BF29B5E79691DE0075B /* Pods-CandyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests.debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		750F2A301DF7523E00A784F6 /* sweetFavourNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sweetFavourNode.h; path = Candy/inventory/sweetFavourNode.h; sourceTree = "<group>"; };
 		750F2A311DF7523E00A784F6 /* sweetFavourNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sweetFavourNode.m; path = Candy/inventory/sweetFavourNode.m; sourceTree = "<group>"; };
 		750F2A331DF77FF400A784F6 /* fiftyTapBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fiftyTapBonus.h; path = Candy/tap/fiftyTapBonus.h; sourceTree = "<group>"; };
@@ -388,6 +387,7 @@
 		75828DFB1E16A417008DC5AF /* sweetValueCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sweetValueCalculation.m; path = "Candy/Sweet Tap Menu/sweetValueCalculation.m"; sourceTree = "<group>"; };
 		758C52511E2295870054D864 /* deskStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deskStore.h; path = "Candy/Coin Store/deskStore.h"; sourceTree = "<group>"; };
 		758C52521E2295870054D864 /* deskStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = deskStore.m; path = "Candy/Coin Store/deskStore.m"; sourceTree = "<group>"; };
+		758FDAE91E3F0CFA0021A814 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleToolboxForMac.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Candy-bvrnolhogwbvsvczwlqcenjblbxo/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/libGoogleToolboxForMac.a"; sourceTree = "<group>"; };
 		75919B8F1DDB7A93001F66EB /* upgradeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = upgradeMenu.h; path = Candy/userInterface/upgradeMenu.h; sourceTree = "<group>"; };
 		75919B901DDB7A93001F66EB /* upgradeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = upgradeMenu.m; path = Candy/userInterface/upgradeMenu.m; sourceTree = "<group>"; };
 		75919B931DDB82DF001F66EB /* mainUpgrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainUpgrade.h; path = Candy/userInterface/upgradeMenu/mainUpgrade.h; sourceTree = "<group>"; };
@@ -447,6 +447,8 @@
 		75C36E451DCE752A00F84214 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75C36E481DCE793D00F84214 /* mainBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainBackground.h; sourceTree = "<group>"; };
 		75C36E491DCE793D00F84214 /* mainBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainBackground.m; sourceTree = "<group>"; };
+		75CA23E31E3F02930003DD92 /* loadAdvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loadAdvert.h; path = "Candy/Free Items/loadAdvert.h"; sourceTree = "<group>"; };
+		75CA23E41E3F02930003DD92 /* loadAdvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loadAdvert.m; path = "Candy/Free Items/loadAdvert.m"; sourceTree = "<group>"; };
 		75CCCB2E1E153198007DA3EC /* sweetInvSelectUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sweetInvSelectUI.h; path = "Candy/Sweet Tap Menu/sweetInvSelectUI.h"; sourceTree = "<group>"; };
 		75CCCB2F1E153198007DA3EC /* sweetInvSelectUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sweetInvSelectUI.m; path = "Candy/Sweet Tap Menu/sweetInvSelectUI.m"; sourceTree = "<group>"; };
 		75D01FEC1E36AD60004F8F0F /* trendsChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trendsChart.h; path = "Candy/Trend System/trendsChart.h"; sourceTree = "<group>"; };
@@ -506,12 +508,9 @@
 		75FCC5E81E09769B0051CBA1 /* inventorySweetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inventorySweetData.h; path = "Candy/Sweet Inventory/inventorySweetData.h"; sourceTree = "<group>"; };
 		75FCC5E91E09769B0051CBA1 /* inventorySweetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventorySweetData.m; path = "Candy/Sweet Inventory/inventorySweetData.m"; sourceTree = "<group>"; };
 		801CB7F07A81FACDDCF3AF14 /* Pods-Candy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.debug.xcconfig"; sourceTree = "<group>"; };
-		849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FD0F94A0262F93DE23343B /* Pods-CandyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CandyUITests/Pods-CandyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Candy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5F9139C16C36A43384F170 /* Pods-Candy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.release.xcconfig"; sourceTree = "<group>"; };
 		DE38575794849656B079A7D7 /* Pods-CandyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CandyTests/Pods-CandyTests.release.xcconfig"; sourceTree = "<group>"; };
-		FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CandyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,7 +518,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D5F054600038F88EF5DF3B /* libPods-Candy.a in Frameworks */,
+				758FDAEA1E3F0CFA0021A814 /* libGoogleToolboxForMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +526,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818773E4E01FE704692DC87A /* libPods-CandyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +533,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C52DBA8CCEB2888CD258BA /* libPods-CandyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,10 +624,8 @@
 		752177101E3EC3890095A6D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				758FDAE91E3F0CFA0021A814 /* libGoogleToolboxForMac.a */,
 				752177111E3EC3A00095A6D4 /* GoogleService-Info.plist */,
-				DB63AD8427C96A7DAD0515F7 /* libPods-Candy.a */,
-				FC4344C8DE543D605CE908B1 /* libPods-CandyTests.a */,
-				849293B48F8987F9DC0EED3D /* libPods-CandyUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1116,6 +1111,8 @@
 			children = (
 				75E3B5B41E3AB09300979CA4 /* freeItemsScene.h */,
 				75E3B5B51E3AB09300979CA4 /* freeItemsScene.m */,
+				75CA23E31E3F02930003DD92 /* loadAdvert.h */,
+				75CA23E41E3F02930003DD92 /* loadAdvert.m */,
 			);
 			name = "Free Items ";
 			sourceTree = "<group>";
@@ -1540,6 +1537,7 @@
 				756C31261DF4D0B20017FBE9 /* buttonCreator.m in Sources */,
 				753D56C81E06E50B00A6CBF8 /* packetContentManager.m in Sources */,
 				75E8F1891DD3A57200A421E7 /* sweet.m in Sources */,
+				75CA23E51E3F02930003DD92 /* loadAdvert.m in Sources */,
 				615C34EC1DF6E0DB00F1B3E2 /* scrollUpdate.m in Sources */,
 				75FCC5E71E0975FD0051CBA1 /* inventoryDataHandler.m in Sources */,
 				7521F8C11DE0F61E00F2AD76 /* slotManager.m in Sources */,
@@ -1819,6 +1817,10 @@
 				INFOPLIST_FILE = Candy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kilcal.Candy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1833,6 +1835,10 @@
 				INFOPLIST_FILE = Candy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kilcal.Candy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

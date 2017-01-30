@@ -7,6 +7,7 @@ target 'Candy' do
 
   # Pods for Candy
     pod 'Firebase/Core'
+    pod 'Firebase/AdMob’
 
   target 'CandyTests' do
     inherit! :search_paths
