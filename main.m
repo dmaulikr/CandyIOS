@@ -27,9 +27,10 @@
 #import "sweetInventoryUI.h"
 #import "coinBarSprite.h"
 #import "tutorialMessages.h"
+#import "scrollUpdate.h"
+#import "gems.h"
 
-UIScrollView* UIscrollUpdate = nil;
-UIImageView *img1 = nil;
+
 @implementation main
 
 -(void)didMoveToView:(SKView *)view {
@@ -39,16 +40,13 @@ UIImageView *img1 = nil;
     [mainUI drawUI:self];
     [levelDecider createLevel:self];
     [tutorialMessages firstTimeLoadMessages:self.view];
-    
-    //scrollView(Update)
-    UIscrollUpdate = [[UIScrollView alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 19, self.view.frame.size.height / 4.2, 8.95*(self.view.frame.size.width /10), 2.38*(self.view.frame.size.height / 4))];
-    [scrollUpdate initializeScroll:UIscrollUpdate uiView:self.view];
-    [self.view addSubview:UIscrollUpdate];
-    for(int i = 0; i<= 8; i++){
-        [AddItem CreateItem:@"nil" buttonTexture:@"upgradeButton" yPos:i*(UIscrollUpdate.frame.size.width/4) Scene:UIscrollUpdate ID:i];
-    }
+    [scrollUpdate initializeRegularScroll:self];
+    [scrollUpdate initializeSpecialScroll:self];
     [sweetShopUI addUIView:self.view];
-    }
+    [money addBalance:(30000000)];
+    [gems addGems:100000];
+    
+}
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *tap = [touches anyObject];

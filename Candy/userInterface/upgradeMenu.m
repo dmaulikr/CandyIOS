@@ -84,14 +84,16 @@ bool createdUpgrades = false;
         upgradeBack.texture = [SKTexture textureWithImageNamed:@"spr_upgrade_special"];
         btn_regular.hidden = false;
         btn_special.hidden = true;
-        [scrollUpdate Hide:s.view];
+        [scrollUpdate switchMenu];
+        //[scrollUpdate Hide:s.view];
         //[main scrollViewSpecialController:false];
     }
     else if([n.name isEqualToString:@"btn_regular"]){
         upgradeBack.texture = [SKTexture textureWithImageNamed:@"spr_upgrade_regular"];
         btn_regular.hidden = true;
         btn_special.hidden = false;
-        [scrollUpdate Show:s.view];
+        [scrollUpdate switchMenu];
+        //[scrollUpdate Show:s.view];
         //[main scrollViewSpecialController:true];
     }
 }

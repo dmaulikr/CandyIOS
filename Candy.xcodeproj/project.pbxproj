@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615C34E91DF6D42900F1B3E2 /* AddItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34E81DF6D42900F1B3E2 /* AddItem.m */; };
 		615C34EC1DF6E0DB00F1B3E2 /* scrollUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615C34EB1DF6E0DB00F1B3E2 /* scrollUpdate.m */; };
 		618EA38C1DF1ED4C00D07ADD /* candyMachines.m in Sources */ = {isa = PBXBuildFile; fileRef = 618EA38B1DF1ED4C00D07ADD /* candyMachines.m */; };
-		61D0BCF81E365BAC00EA940C /* upgrades.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BCF71E365BAC00EA940C /* upgrades.m */; };
 		61E1837F1DEDE45A0034C021 /* Character_Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E1837E1DEDE45A0034C021 /* Character_Maker.m */; };
 		61E183861DEE00E30034C021 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183851DEE00E30034C021 /* Character.m */; };
 		61E183891DEE13490034C021 /* skinColour.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183881DEE13490034C021 /* skinColour.m */; };
@@ -18,6 +16,10 @@
 		61E1838F1DEE13E20034C021 /* Save.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E1838E1DEE13E20034C021 /* Save.m */; };
 		61E183921DEE14140034C021 /* background.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183911DEE14140034C021 /* background.m */; };
 		61E183951DEE14450034C021 /* character_clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183941DEE14450034C021 /* character_clothes.m */; };
+		61F84E951E3E22AA00F5ACBD /* upgrade_special_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F84E941E3E22AA00F5ACBD /* upgrade_special_handler.m */; };
+		61F84E981E3E22B700F5ACBD /* upgrade_regular_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F84E971E3E22B700F5ACBD /* upgrade_regular_handler.m */; };
+		61F84E9B1E3E22BF00F5ACBD /* add_upgrade_regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F84E9A1E3E22BF00F5ACBD /* add_upgrade_regular.m */; };
+		61F84E9E1E3E22C800F5ACBD /* add_upgrade_special.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F84E9D1E3E22C800F5ACBD /* add_upgrade_special.m */; };
 		750F2A321DF7523E00A784F6 /* sweetFavourNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F2A311DF7523E00A784F6 /* sweetFavourNode.m */; };
 		750F2A351DF77FF400A784F6 /* fiftyTapBonus.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F2A341DF77FF400A784F6 /* fiftyTapBonus.m */; };
 		750F2A391DF85B9D00A784F6 /* messageUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 750F2A381DF85B9D00A784F6 /* messageUI.m */; };
@@ -185,14 +187,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		615C34E71DF6D42900F1B3E2 /* AddItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItem.h; sourceTree = "<group>"; };
-		615C34E81DF6D42900F1B3E2 /* AddItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItem.m; sourceTree = "<group>"; };
 		615C34EA1DF6E0DB00F1B3E2 /* scrollUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollUpdate.h; sourceTree = "<group>"; };
 		615C34EB1DF6E0DB00F1B3E2 /* scrollUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollUpdate.m; sourceTree = "<group>"; };
 		618EA38A1DF1ED4C00D07ADD /* candyMachines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = candyMachines.h; path = Candy/candyMachines.h; sourceTree = "<group>"; };
 		618EA38B1DF1ED4C00D07ADD /* candyMachines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = candyMachines.m; path = Candy/candyMachines.m; sourceTree = "<group>"; };
-		61D0BCF61E365BAC00EA940C /* upgrades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upgrades.h; sourceTree = "<group>"; };
-		61D0BCF71E365BAC00EA940C /* upgrades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upgrades.m; sourceTree = "<group>"; };
 		61E1837D1DEDE45A0034C021 /* Character_Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character_Maker.h; sourceTree = "<group>"; };
 		61E1837E1DEDE45A0034C021 /* Character_Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character_Maker.m; sourceTree = "<group>"; };
 		61E183841DEE00E30034C021 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -207,6 +205,14 @@
 		61E183911DEE14140034C021 /* background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = background.m; sourceTree = "<group>"; };
 		61E183931DEE14450034C021 /* character_clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character_clothes.h; sourceTree = "<group>"; };
 		61E183941DEE14450034C021 /* character_clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = character_clothes.m; sourceTree = "<group>"; };
+		61F84E931E3E22AA00F5ACBD /* upgrade_special_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upgrade_special_handler.h; sourceTree = "<group>"; };
+		61F84E941E3E22AA00F5ACBD /* upgrade_special_handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upgrade_special_handler.m; sourceTree = "<group>"; };
+		61F84E961E3E22B700F5ACBD /* upgrade_regular_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upgrade_regular_handler.h; sourceTree = "<group>"; };
+		61F84E971E3E22B700F5ACBD /* upgrade_regular_handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upgrade_regular_handler.m; sourceTree = "<group>"; };
+		61F84E991E3E22BF00F5ACBD /* add_upgrade_regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = add_upgrade_regular.h; sourceTree = "<group>"; };
+		61F84E9A1E3E22BF00F5ACBD /* add_upgrade_regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = add_upgrade_regular.m; sourceTree = "<group>"; };
+		61F84E9C1E3E22C800F5ACBD /* add_upgrade_special.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = add_upgrade_special.h; sourceTree = "<group>"; };
+		61F84E9D1E3E22C800F5ACBD /* add_upgrade_special.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = add_upgrade_special.m; sourceTree = "<group>"; };
 		750F2A301DF7523E00A784F6 /* sweetFavourNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sweetFavourNode.h; path = Candy/inventory/sweetFavourNode.h; sourceTree = "<group>"; };
 		750F2A311DF7523E00A784F6 /* sweetFavourNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sweetFavourNode.m; path = Candy/inventory/sweetFavourNode.m; sourceTree = "<group>"; };
 		750F2A331DF77FF400A784F6 /* fiftyTapBonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fiftyTapBonus.h; path = Candy/tap/fiftyTapBonus.h; sourceTree = "<group>"; };
@@ -519,17 +525,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6109D29D1DF7576E00257CDB /* Update Menu */ = {
+		6109D29D1DF7576E00257CDB /* Upgrade Menu */ = {
 			isa = PBXGroup;
 			children = (
-				61D0BCF61E365BAC00EA940C /* upgrades.h */,
-				61D0BCF71E365BAC00EA940C /* upgrades.m */,
 				615C34EA1DF6E0DB00F1B3E2 /* scrollUpdate.h */,
 				615C34EB1DF6E0DB00F1B3E2 /* scrollUpdate.m */,
-				615C34E71DF6D42900F1B3E2 /* AddItem.h */,
-				615C34E81DF6D42900F1B3E2 /* AddItem.m */,
+				61F84E961E3E22B700F5ACBD /* upgrade_regular_handler.h */,
+				61F84E971E3E22B700F5ACBD /* upgrade_regular_handler.m */,
+				61F84E991E3E22BF00F5ACBD /* add_upgrade_regular.h */,
+				61F84E9A1E3E22BF00F5ACBD /* add_upgrade_regular.m */,
+				61F84E9C1E3E22C800F5ACBD /* add_upgrade_special.h */,
+				61F84E9D1E3E22C800F5ACBD /* add_upgrade_special.m */,
+				61F84E931E3E22AA00F5ACBD /* upgrade_special_handler.h */,
+				61F84E941E3E22AA00F5ACBD /* upgrade_special_handler.m */,
 			);
-			name = "Update Menu";
+			name = "Upgrade Menu";
 			sourceTree = "<group>";
 		};
 		618EA38D1DF1ED5700D07ADD /* Candy_Machines */ = {
@@ -884,7 +894,7 @@
 				75712C121DFCE1C900450342 /* Packets */,
 				7571FB6E1DFB712F006E1E49 /* Sweet Shop */,
 				750F2A361DF859DB00A784F6 /* Message System */,
-				6109D29D1DF7576E00257CDB /* Update Menu */,
+				6109D29D1DF7576E00257CDB /* Upgrade Menu */,
 				618EA38D1DF1ED5700D07ADD /* Candy_Machines */,
 				61E183801DEDF0830034C021 /* CharacterSpawn */,
 				61E1836B1DEDE3DE0034C021 /* Character_Maker */,
@@ -1367,6 +1377,7 @@
 				75E04FD01E3128590098E2AE /* spinData.m in Sources */,
 				75582AEB1E22E42900254C54 /* buildingUpgradeUI.m in Sources */,
 				753D56CB1E06FD7600A6CBF8 /* lollyPacket.m in Sources */,
+				61F84E9E1E3E22C800F5ACBD /* add_upgrade_special.m in Sources */,
 				7571FB6D1DFB70D2006E1E49 /* sweetShop.m in Sources */,
 				7579CB061E2AA4CD00975F01 /* spinBox.m in Sources */,
 				753D56CE1E06FF2800A6CBF8 /* wrappedPacket.m in Sources */,
@@ -1424,7 +1435,6 @@
 				756AEAFF1E088B76002CFA70 /* gems.m in Sources */,
 				750F2A321DF7523E00A784F6 /* sweetFavourNode.m in Sources */,
 				61E183861DEE00E30034C021 /* Character.m in Sources */,
-				615C34E91DF6D42900F1B3E2 /* AddItem.m in Sources */,
 				75B7C6AE1E33C92000D01EB5 /* trendsButton.m in Sources */,
 				759E71C81DF0A02600B7275A /* mapMain.m in Sources */,
 				752002481E11D47B00C2AC11 /* confirmSale.m in Sources */,
@@ -1438,19 +1448,21 @@
 				755B0D201E143BE100EBA428 /* sweetDrawUI.m in Sources */,
 				75D01FEE1E36AD60004F8F0F /* trendsChart.m in Sources */,
 				75C36DFC1DCCF77600F84214 /* main.m in Sources */,
-				61D0BCF81E365BAC00EA940C /* upgrades.m in Sources */,
 				75754BEF1E2401FE0030D1BA /* tutorialMessages.m in Sources */,
 				75D01FF11E36B103004F8F0F /* trendsData.m in Sources */,
 				75784D4E1E282F4200C41067 /* spinWheel.m in Sources */,
 				7579CB031E2A8CBD00975F01 /* sparks.m in Sources */,
 				750F3A911DE64A65002AFB78 /* sweetnessSlider.m in Sources */,
 				75ED3B5B1E19647F0012BA98 /* gemInteractionUI.m in Sources */,
+				61F84E951E3E22AA00F5ACBD /* upgrade_special_handler.m in Sources */,
 				75E39AD01E0319FD003D7DD7 /* bonbonPacket.m in Sources */,
+				61F84E981E3E22B700F5ACBD /* upgrade_regular_handler.m in Sources */,
 				75D8C3591E1C304C00D35217 /* bottomBar.m in Sources */,
 				7525F7C21DD25C8500B0510C /* comboTimer.m in Sources */,
 				757CD1981DE188C000D07480 /* sweetCustomMenu.m in Sources */,
 				75E8F18D1DD3AB0300A421E7 /* defaultSweet.m in Sources */,
 				7525F7881DCFC72A00B0510C /* buttonAnimation.m in Sources */,
+				61F84E9B1E3E22BF00F5ACBD /* add_upgrade_regular.m in Sources */,
 				7571FB741DFB7453006E1E49 /* sweetShopBackground.m in Sources */,
 				75527A2F1DFF00D600D149C0 /* packetInventoryData.m in Sources */,
 				75D8C35C1E1C37E200D35217 /* menuButton.m in Sources */,
