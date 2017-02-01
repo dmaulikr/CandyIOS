@@ -10,6 +10,12 @@
 #import "sweetInventoryData.h"
 #import "confirmSale.h"
 #import "confirmGemSale.h"
+#import "wrappedPacket.h"
+#import "lollyPacket.h"
+#import "chewPacket.h"
+#import "jawbreakerPacket.h"
+#import "bonbonPacket.h"
+#import "trendsData.h"
 
 @implementation itemUI
 
@@ -94,11 +100,18 @@
     
     [mainItem addSubview:topBar];
     [mainItem addSubview:back];
-    [mainItem addSubview:sellCoinButton];
-    [mainItem addSubview:sellGemButton];
+    
+    if([[sweetInventoryData getInventory] count] > 1){
+        [mainItem addSubview:sellCoinButton];
+        [mainItem addSubview:sellGemButton];
+    }
+    
     [mainItem addSubview:backInvButton];
     [mainItem addSubview:sweet];
     [mainItem addSubview:sweetNameBg];
+    
+    [self addTrendValue:mainItem texture:textureName];
+    [self addBrandValue:mainItem texture:textureName];
     
     [v addSubview:mainItem];
 }
@@ -158,5 +171,59 @@
     }
     
     return 0;
+}
++(void)addTrendValue: (UIView*)v texture:(NSString*)name {
+    
+    NSString *trendValueImageName;
+    
+    if([name containsString:@"wrapped"]){
+        trendValueImageName = [NSString stringWithFormat:@"trendsInv%d", [trendsData getTrendMultiplierByPacketTrendID:4]];
+    }
+    if([name containsString:@"lolly"]){
+        trendValueImageName = [NSString stringWithFormat:@"trendsInv%d", [trendsData getTrendMultiplierByPacketTrendID:0]];
+    }
+    if([name containsString:@"jawbreaker"]){
+        trendValueImageName = [NSString stringWithFormat:@"trendsInv%d", [trendsData getTrendMultiplierByPacketTrendID:1]];
+    }
+    if([name containsString:@"bonbon"]){
+        trendValueImageName = [NSString stringWithFormat:@"trendsInv%d", [trendsData getTrendMultiplierByPacketTrendID:3]];
+    }
+    if([name containsString:@"chew"]){
+        trendValueImageName = [NSString stringWithFormat:@"trendsInv%d", [trendsData getTrendMultiplierByPacketTrendID:2]];
+    }
+    
+    UIImage *trendImage = [UIImage imageNamed:trendValueImageName];
+    UIImageView *trendValue = [[UIImageView alloc] initWithImage:trendImage];
+    
+    trendValue.frame = CGRectMake(v.frame.size.width/65, v.frame.size.height/140, v.frame.size.width/3.6, v.frame.size.height/5.5);
+    
+    [v addSubview:trendValue];
+}
++(void)addBrandValue: (UIView*)v texture:(NSString*)name {
+    
+    NSString *trendValueImageName;
+    
+    if([name containsString:@"wrapped"]){
+        trendValueImageName = [NSString stringWithFormat:@"brandlvl%d", [wrappedPacket getBrandValue]];
+    }
+    if([name containsString:@"lolly"]){
+        trendValueImageName = [NSString stringWithFormat:@"brandlvl%d", [lollyPacket getBrandValue]];
+    }
+    if([name containsString:@"jawbreaker"]){
+        trendValueImageName = [NSString stringWithFormat:@"brandlvl%d", [jawbreakerPacket getBrandValue]];
+    }
+    if([name containsString:@"bonbon"]){
+        trendValueImageName = [NSString stringWithFormat:@"brandlvl%d", [bonbonPacket getBrandValue]];
+    }
+    if([name containsString:@"chew"]){
+        trendValueImageName = [NSString stringWithFormat:@"brandlvl%d", [chewPacket getBrandValue]];
+    }
+    
+    UIImage *trendImage = [UIImage imageNamed:trendValueImageName];
+    UIImageView *trendValue = [[UIImageView alloc] initWithImage:trendImage];
+    
+    trendValue.frame = CGRectMake(v.frame.size.width - v.frame.size.width/65 - v.frame.size.width/4, v.frame.size.height/20, v.frame.size.width/4, v.frame.size.height/10);
+    
+    [v addSubview:trendValue];
 }
 @end
