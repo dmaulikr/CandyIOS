@@ -13,6 +13,7 @@
 		616F844D1E42635D00723148 /* upgrades_regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 616F844C1E42635D00723148 /* upgrades_regular.m */; };
 		616F84501E4263C600723148 /* upgrades_special.m in Sources */ = {isa = PBXBuildFile; fileRef = 616F844F1E4263C600723148 /* upgrades_special.m */; };
 		618EA38C1DF1ED4C00D07ADD /* candyMachines.m in Sources */ = {isa = PBXBuildFile; fileRef = 618EA38B1DF1ED4C00D07ADD /* candyMachines.m */; };
+		61CF2A4F1E4A3458007FE75B /* clothes_presets.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF2A4E1E4A3458007FE75B /* clothes_presets.m */; };
 		61E1837F1DEDE45A0034C021 /* Character_Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E1837E1DEDE45A0034C021 /* Character_Maker.m */; };
 		61E183861DEE00E30034C021 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183851DEE00E30034C021 /* Character.m */; };
 		61E183891DEE13490034C021 /* skinColour.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E183881DEE13490034C021 /* skinColour.m */; };
@@ -275,6 +276,8 @@
 		616F844F1E4263C600723148 /* upgrades_special.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upgrades_special.m; sourceTree = "<group>"; };
 		618EA38A1DF1ED4C00D07ADD /* candyMachines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = candyMachines.h; path = Candy/candyMachines.h; sourceTree = "<group>"; };
 		618EA38B1DF1ED4C00D07ADD /* candyMachines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = candyMachines.m; path = Candy/candyMachines.m; sourceTree = "<group>"; };
+		61CF2A4D1E4A3458007FE75B /* clothes_presets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clothes_presets.h; sourceTree = "<group>"; };
+		61CF2A4E1E4A3458007FE75B /* clothes_presets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clothes_presets.m; sourceTree = "<group>"; };
 		61E1837D1DEDE45A0034C021 /* Character_Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character_Maker.h; sourceTree = "<group>"; };
 		61E1837E1DEDE45A0034C021 /* Character_Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character_Maker.m; sourceTree = "<group>"; };
 		61E183841DEE00E30034C021 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -770,12 +773,15 @@
 		61E1836B1DEDE3DE0034C021 /* Character_Maker */ = {
 			isa = PBXGroup;
 			children = (
+				61E183801DEDF0830034C021 /* CharacterSpawn */,
 				61E1838D1DEE13E20034C021 /* Save.h */,
 				61E1838E1DEE13E20034C021 /* Save.m */,
 				61E183901DEE14140034C021 /* background.h */,
 				61E183911DEE14140034C021 /* background.m */,
 				61E183931DEE14450034C021 /* character_clothes.h */,
 				61E183941DEE14450034C021 /* character_clothes.m */,
+				61CF2A4D1E4A3458007FE75B /* clothes_presets.h */,
+				61CF2A4E1E4A3458007FE75B /* clothes_presets.m */,
 				61E1838A1DEE13BA0034C021 /* selection_bar.h */,
 				61E1838B1DEE13BA0034C021 /* selection_bar.m */,
 				61E183871DEE13490034C021 /* skinColour.h */,
@@ -1203,7 +1209,6 @@
 				750F2A361DF859DB00A784F6 /* Message System */,
 				6109D29D1DF7576E00257CDB /* Update Menu */,
 				618EA38D1DF1ED5700D07ADD /* Candy_Machines */,
-				61E183801DEDF0830034C021 /* CharacterSpawn */,
 				61E1836B1DEDE3DE0034C021 /* Character_Maker */,
 				750F3A951DEC8160002AFB78 /* globalMenu */,
 				75919B961DDCA353001F66EB /* levelBackgrounds */,
@@ -1670,6 +1675,7 @@
 				75B7C6AB1E32A59C00D01EB5 /* trendsMain.m in Sources */,
 				756C31261DF4D0B20017FBE9 /* buttonCreator.m in Sources */,
 				753D56C81E06E50B00A6CBF8 /* packetContentManager.m in Sources */,
+				61CF2A4F1E4A3458007FE75B /* clothes_presets.m in Sources */,
 				75E8F1891DD3A57200A421E7 /* sweet.m in Sources */,
 				615C34EC1DF6E0DB00F1B3E2 /* scrollUpdate.m in Sources */,
 				75FCC5E71E0975FD0051CBA1 /* inventoryDataHandler.m in Sources */,

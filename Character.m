@@ -7,6 +7,7 @@
 //
 
 #import "Character.h"
+//#import "clothes_presets.m"
 
 @implementation Character
 +(void)Spawn:(SKScene*)s Position:(CGPoint)Pos Scale:(double)scale{
