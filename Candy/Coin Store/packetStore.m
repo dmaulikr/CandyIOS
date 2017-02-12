@@ -10,6 +10,7 @@
 #import "storeItemUI.h"
 #import "gems.h"
 #import "packetInventoryData.h"
+#import "messageUI.h"
 
 @implementation packetStore
 +(NSArray*)packets {
@@ -17,7 +18,11 @@
                         @"bonbonPacket",
                         @"sweetPacket",
                         @"chewPacket",
-                        @"jawbreakerPacket",nil];
+                        @"jawbreakerPacket",
+                        @"candybarPacket",
+                        @"marshmallowPacket",
+                        @"pencilPacket",
+                        @"eggPacket", nil];
     
     return packets;
 }
@@ -27,6 +32,8 @@
     packetStore.tag = 21300;
     packetStore.backgroundColor = [UIColor whiteColor];
     [self addItemUIs:packetStore];
+    
+    
     
     [v addSubview:packetStore];
 }
@@ -57,6 +64,14 @@
         output = @"CHEWS";
     }else if([inputString isEqualToString:@"jawbreakerPacket"]){
         output = @"JAWBREAKERS";
+    }else if([inputString isEqualToString:@"candybarPacket"]){
+        output = @"CANDYBARS";
+    }else if([inputString isEqualToString:@"marshmallowPacket"]){
+        output = @"MARSHMALLOWS";
+    }else if([inputString isEqualToString:@"pencilPacket"]){
+        output = @"CANDY PENCIL";
+    }else if([inputString isEqualToString:@"eggPacket"]){
+        output = @"EASTER EGGS";
     }else {
         output = @"No Name";
     }
